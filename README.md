@@ -6,6 +6,10 @@ This project is a C++ application that visualizes fundamental data structures us
 
 ![Project Sample](https://github.com/ahmedyasser2005/Data-Structures-Visualizer/blob/main/sfmlGame/sample.png)
 
+## Note
+
+This project was originally built using the Raylib library as part of a Data Structures course. However, it didn't fully meet my expectations or support the advanced features I had in mind. To improve flexibility and visuals, I decided to rebuild it using SFML 3.0.0. Progress has been slow due to other responsibilities, but I plan to continue developing it when possible.
+
 ## Key Features
 
 - **Custom Grid System:** Organizes visual elements and ensures proper placement.
@@ -24,7 +28,3 @@ This project is a C++ application that visualizes fundamental data structures us
 - Add more interactive controls for user input.
 - Implement additional data structures (linked lists, trees, etc.).
 - Improve UI with animations and real-time updates.
-
-## Note
-
-This project was originally developed using the Raylib library; however, it did not fully meet my expectations or align with the advanced features I envisioned. To enhance functionality and visual quality, I decided to rebuild the project using SFML.
