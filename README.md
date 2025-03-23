@@ -1,2 +1,46 @@
-### This project was originally created using a library called "Raylib," but it did not meet my expectations and plans. As a result, I am now remaking the project using "SFML 3.0.0," which will allow for more advanced features and visuals for the type of project I'm working on. 
-### Although the current state of the project is somewhat disorganized, I will continue to improve and develop it.
+# SFML Data Structures Visualization
+
+## Overview
+
+This project is a C++ application that visualizes fundamental data structures using the Simple and Fast Multimedia Library (SFML). It provides an interactive way to understand stacks and queues by visually displaying their operations in a dynamic grid-based system.
+
+![Project Sample](https://github.com/ahmedyasser2005/Data-Structures-Visualizer/blob/main/sfmlGame/sample.png)
+
+## Key Features
+
+- **Custom Grid System:** Organizes visual elements and ensures proper placement.
+- **Stack & Queue Implementations:** Demonstrates Last-In-First-Out (LIFO) and First-In-First-Out (FIFO) behaviors.
+- **Node Representation:** Uses circles and text to visually depict data elements.
+- **Interactive UI Elements:** Includes buttons for adding and removing elements.
+- **Configurable Window Settings:** Reads from a configuration file to allow easy customization.
+
+## Technologies Used
+
+- **C++** (Core logic and data structures)
+- **SFML** (Graphics rendering and UI interaction)
+
+## How to Run
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/ahmedyasser2005/Data-Structures-Visualizer.git
+   cd Data-Structures-Visualizer
+   ```
+2. Compile the project:
+   ```sh
+   g++ -o app main.cpp -lsfml-graphics -lsfml-window -lsfml-system
+   ```
+3. Run the application:
+   ```sh
+   ./app
+   ```
+
+## Future Enhancements
+
+- Add more interactive controls for user input.
+- Implement additional data structures (linked lists, trees, etc.).
+- Improve UI with animations and real-time updates.
+
+## Note
+
+This project was originally developed using the Raylib library; however, it did not fully meet my expectations or align with the advanced features I envisioned. To enhance functionality and visual quality, I decided to rebuild the project using SFML.
