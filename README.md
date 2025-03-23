@@ -16,24 +16,8 @@ This project is a C++ application that visualizes fundamental data structures us
 
 ## Technologies Used
 
-- **C++** (Core logic and data structures)
+- **Visual C++ 2022**
 - **SFML** (Graphics rendering and UI interaction)
-
-## How to Run
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/ahmedyasser2005/Data-Structures-Visualizer.git
-   cd Data-Structures-Visualizer
-   ```
-2. Compile the project:
-   ```sh
-   g++ -o app main.cpp -lsfml-graphics -lsfml-window -lsfml-system
-   ```
-3. Run the application:
-   ```sh
-   ./app
-   ```
 
 ## Future Enhancements
 
